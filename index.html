@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div>
+
+        <h3>HOME</h3>
+
+        <button class="display-btn" id="home-btn">0</button>
+
+        <div class="btn">
+
+          <button onclick="home()" >+1</button>
+
+          <button onclick="homeTwo()">+2</button>
+
+          <button onclick="homeThree()">+3</button>
+          
+        </div>
+  
+      </div>
+  
+      <div>
+  
+        <h3>GUEST</h3>
+
+        <button class="display-btn" id="away-btn">0</button>
+
+        <div class="btn">
+
+          <button onclick="away()">+1</button>
+
+          <button onclick="awayTwo()">+2</button>
+
+          <button onclick="awayThree()">+3</button>
+
+        </div>
+  
+      </div>
+
+    </div>
+
+    <button onclick="winResult()" id="winner">Winner:</button>
+
+  </body>
+
+  <script src="index.js"></script>
+</html>
